@@ -1,0 +1,17 @@
+server:
+  port: 8082 #指定端口
+spring:
+  application:
+    name: mybatis-annotation #应用名称
+  datasource: #数据源
+    url: jdbc:mysql://192.168.0.106:3306/springboot?useUnicode=true&characterEncoding=utf-8
+    username: root #账号
+    password: 123456 #密码
+    driver-class-name: com.mysql.cj.jdbc.Driver #数据库驱动
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名法
+logging:
+  level:
+    com.youku1327.mybatis.mapper: debug #日志级别
