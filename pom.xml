@@ -11,6 +11,7 @@
     <modules>
         <module>annotation</module>
         <module>hello-world</module>
+        <module>spring-session</module>
     </modules>
 
     <parent>
