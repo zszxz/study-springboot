@@ -12,6 +12,7 @@
         <module>annotation</module>
         <module>hello-world</module>
         <module>spring-session</module>
+        <module>springboot-banner</module>
     </modules>
 
     <parent>
