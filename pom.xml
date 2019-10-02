@@ -13,6 +13,7 @@
         <module>hello-world</module>
         <module>spring-session</module>
         <module>springboot-banner</module>
+        <module>fileupload</module>
     </modules>
 
     <parent>

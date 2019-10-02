@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.youku1327.springboot.mybatis</groupId>
-    <artifactId>annotation</artifactId>
+    <groupId>com.youku1327.springboot.study</groupId>
+    <artifactId>mybatis-annotation</artifactId>
 
 
     <dependencies>
