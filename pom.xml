@@ -9,11 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>annotation</module>
+        <module>mybatis-annotation</module>
         <module>hello-world</module>
         <module>spring-session</module>
         <module>springboot-banner</module>
         <module>fileupload</module>
+        <module>springboot-exception</module>
     </modules>
 
     <parent>
