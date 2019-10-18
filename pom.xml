@@ -15,6 +15,7 @@
         <module>springboot-banner</module>
         <module>fileupload</module>
         <module>springboot-exception</module>
+        <module>springboot-RestTemplate</module>
     </modules>
 
     <parent>
