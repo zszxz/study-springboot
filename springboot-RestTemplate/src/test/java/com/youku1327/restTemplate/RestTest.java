@@ -119,11 +119,11 @@ public class RestTest {
      **/
     @Test
     public void testExchange(){
-        String url = "http://localhost:8090/youku1327/user/{id}";
+        String url = "http://localhost:8090/youku1327/user/{name}";
         HttpHeaders httpHeaders = new HttpHeaders();
         httpHeaders.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
         HttpEntity httpEntity = new HttpEntity(httpHeaders);
-        ResponseEntity<String> exchange = restTemplate.exchange(url, HttpMethod.GET, httpEntity, String.class, 1327);
+        ResponseEntity<String> exchange = restTemplate.exchange(url, HttpMethod.GET, httpEntity, String.class, "youku1327");
         System.out.println(exchange.getBody());
     }
 
