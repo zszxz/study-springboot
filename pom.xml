@@ -16,6 +16,11 @@
         <module>fileupload</module>
         <module>springboot-exception</module>
         <module>springboot-RestTemplate</module>
+        <module>springboot-quartz</module>
+        <module>springboot-test</module>
+        <module>cors-provider</module>
+        <module>cors-comsumer</module>
+        <module>springboot-jdbcTemplate</module>
     </modules>
 
     <parent>
