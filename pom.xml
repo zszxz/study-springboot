@@ -21,6 +21,7 @@
         <module>cors-provider</module>
         <module>cors-comsumer</module>
         <module>springboot-jdbcTemplate</module>
+        <module>springboot-scheduled</module>
     </modules>
 
     <parent>
