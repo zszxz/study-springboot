@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>springboot广播式WebSocket</title>
+</head>
+<body onload="disconnect()">
+<noscript><h2 style="color: #ffff0000;">Sorry,not support the WebSocket</h2></noscript>
+<div>
+    <div>
+        <button id="connect" onclick="connect();">连接</button>
+        <button id="disconnect" disabled="disabled" onclick="disconnect();">断开连接</button>
+    </div>
+    <div id="conversationDiv">
+        <label>输入你的名字</label>
+        <input type="text" id="name"/>
+        <button id="sendName" onclick="sendName();">发送</button>
+        <p id="response"></p>
+    </div>
+</div>
+<script th:src="@{js/sockjs.min.js}"></script>
+<script th:src="@{js/stomp.min.js}"></script>
+<script th:src="@{js/jquery-3.3.1.min.js}"></script>
+<script type="text/javascript">
+    var stompClient = null;
+    // 设置连接
+    function setConnected(connected) {
+        document.getElementById("connect").disabled = connected;
+        document.getElementById("disconnect").disabled = !connected;
+        document.getElementById("conversationDiv").style.visibility = connected ? 'visible' : 'hidden';
+        $("#response").html();
+    }
+    // 连接
+    function connect() {
+        // 转向 endpoint 名为websocket
+        var socket = new SockJS('/websocket');
+        // 使用ssocket的协议
+        stompClient = Stomp.over(socket);
+        // 连接
+        stompClient.connect({}, function (frame) {
+            setConnected(true);
+            console.log('Connected:' + frame);
+            // @Sendto 中定义路径 向目标订阅消息
+            stompClient.subscribe('/topic/getResponse', function (response) {
+                showResponse(JSON.parse(response.body).responseMessage);
+            })
+        });
+    }
+    function disconnect() {
+        if (stompClient != null) {
+            stompClient.disconnect();
+        }
+        setConnected(false);
+        console.log('Disconnected');
+    }
+    function sendName() {
+        var name = $('#name').val();
+        // 控制器@MessageMapping中定义向目标发送消息
+        stompClient.send("/welcome", {}, JSON.stringify({'name': name}));
+    }
+    function showResponse(message) {
+        $("#response").html(message);
+    }
+</script>
+</body>
+</html>
