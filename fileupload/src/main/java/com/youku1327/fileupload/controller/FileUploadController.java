@@ -1,11 +1,15 @@
 package com.youku1327.fileupload.controller;
 
+import com.youku1327.fileupload.service.FileService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
 
@@ -21,6 +25,15 @@ public class FileUploadController {
     @Value("${youku1327.file.root.path}")
     private String fileRootPath;
 
+    @Autowired
+    FileService fileService;
+    /*
+     * @Author lsc
+     * @Description <p>简单文件上传 </p>
+     * @Date  2019/11/20 16:19
+     * @Param [files]
+     * @Return java.lang.String
+     */
     @PostMapping("/file/upload")
     public String fileUpload(@RequestParam("files")MultipartFile[] files){
         String filePath = "";
@@ -41,5 +54,19 @@ public class FileUploadController {
             }
         }
         return filePath;
+    }
+
+
+    /*
+     * @Author lsc
+     * @Description <p> 文件上传实际处理</p>
+     * @Date  2019/11/20 16:19
+     * @Param [files, type, request]
+     * @Return org.springframework.http.ResponseEntity<java.lang.String>
+     */
+    @PostMapping("upload")
+    public ResponseEntity<String> fileUpload(@RequestParam("files") MultipartFile[] files, HttpServletRequest request){
+        ResponseEntity<String> responseEntity = fileService.fileUpload(files);
+        return responseEntity;
     }
 }

@@ -10,3 +10,8 @@ youku1327:
  file:
   root:
     path: "C:\\mydata\\generator\\version06\\" #存储路径
+
+file:
+  savePath: "C:\\mydata\\generator"
+  downloadpath: "C:\\mydata\\generator"
+  filesuffix: [jpg,png,jpeg,doc,docx,xls,xlsx,txt]
