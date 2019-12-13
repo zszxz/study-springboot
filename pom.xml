@@ -22,6 +22,10 @@
         <module>cors-comsumer</module>
         <module>springboot-jdbcTemplate</module>
         <module>springboot-scheduled</module>
+        <module>springboot-websockets</module>
+        <module>springboot-shiro</module>
+        <module>filedownload</module>
+        <module>springboot-swagger</module>
     </modules>
 
     <parent>

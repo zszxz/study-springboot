@@ -16,6 +16,6 @@ public class HelloWorldController {
     @RequestMapping("/hello/springboot")
     @ResponseBody
     public String quick(){
-        return "公众号 youku1327 hello world springboot!";
+        return "公众号 知识追寻者 hello world springboot!";
     }
 }
