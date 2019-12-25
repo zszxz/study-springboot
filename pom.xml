@@ -26,6 +26,7 @@
         <module>springboot-shiro</module>
         <module>filedownload</module>
         <module>springboot-swagger</module>
+        <module>springboot-actuator</module>
     </modules>
 
     <parent>
