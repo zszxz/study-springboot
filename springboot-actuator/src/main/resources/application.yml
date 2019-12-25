@@ -1,0 +1,30 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        # 使用通配符 * 表示匹配所有端点
+        # 排除的端点
+        exclude: caches
+        # 包括的端点
+        include: info,health,beans,env,shutdown
+      # 自定义配置监控路径
+      base-path: /zszxz
+      # 跨域处理
+      cors:
+        allowed-origins: http://localhost:8080/
+        allowed-methods: post,delete,get,put
+  endpoint:
+    health:
+      show-details: always
+    # 开启关闭应用 需要post请求
+    shutdown:
+      enabled: true
+
+
+
+# 配置信息
+info:
+  actuator:
+    name: springboot-actutor
+    version: 1.0.0
+    author: zszxz
