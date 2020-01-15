@@ -27,6 +27,7 @@
         <module>filedownload</module>
         <module>springboot-swagger</module>
         <module>springboot-actuator</module>
+        <module>springboot-profile</module>
     </modules>
 
     <parent>
