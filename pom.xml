@@ -28,6 +28,8 @@
         <module>springboot-swagger</module>
         <module>springboot-actuator</module>
         <module>springboot-profile</module>
+        <module>springboot-aop-log</module>
+        <module>springboot-jwt</module>
     </modules>
 
     <parent>
