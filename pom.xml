@@ -30,6 +30,8 @@
         <module>springboot-profile</module>
         <module>springboot-aop-log</module>
         <module>springboot-jwt</module>
+        <module>springboot-admin</module>
+        <module>easycode</module>
     </modules>
 
     <parent>
