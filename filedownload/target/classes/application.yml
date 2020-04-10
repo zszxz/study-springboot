@@ -1,0 +1,3 @@
+logging:
+  level:
+    com.youku1327.download.controller: debug

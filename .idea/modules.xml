@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cors-comsumer/cors-comsumer.iml" filepath="$PROJECT_DIR$/cors-comsumer/cors-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cors-provider/cors-provider.iml" filepath="$PROJECT_DIR$/cors-provider/cors-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycode/easycode.iml" filepath="$PROJECT_DIR$/easycode/easycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filedownload/filedownload.iml" filepath="$PROJECT_DIR$/filedownload/filedownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileupload/fileupload.iml" filepath="$PROJECT_DIR$/fileupload/fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/hello-world/hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-session/spring-session.iml" filepath="$PROJECT_DIR$/spring-session/spring-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-RestTemplate/springboot-RestTemplate.iml" filepath="$PROJECT_DIR$/springboot-RestTemplate/springboot-RestTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-banner/springboot-banner.iml" filepath="$PROJECT_DIR$/springboot-banner/springboot-banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-exception/springboot-exception.iml" filepath="$PROJECT_DIR$/springboot-exception/springboot-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jdbcTemplate/springboot-jdbcTemplate.iml" filepath="$PROJECT_DIR$/springboot-jdbcTemplate/springboot-jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" filepath="$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-profile/springboot-profile.iml" filepath="$PROJECT_DIR$/springboot-profile/springboot-profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-scheduled/springboot-scheduled.iml" filepath="$PROJECT_DIR$/springboot-scheduled/springboot-scheduled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-test/springboot-test.iml" filepath="$PROJECT_DIR$/springboot-test/springboot-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-websockets/springboot-websockets.iml" filepath="$PROJECT_DIR$/springboot-websockets/springboot-websockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studys-pringboot.iml" filepath="$PROJECT_DIR$/studys-pringboot.iml" />
+    </modules>
+  </component>
+</project>

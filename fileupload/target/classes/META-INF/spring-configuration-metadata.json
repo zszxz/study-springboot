@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.youku1327.fileupload.config.FileConfig",
+      "sourceType": "com.youku1327.fileupload.config.FileConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.downloadpath",
+      "type": "java.lang.String",
+      "sourceType": "com.youku1327.fileupload.config.FileConfig"
+    },
+    {
+      "name": "file.filesuffix",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.youku1327.fileupload.config.FileConfig"
+    },
+    {
+      "name": "file.save-path",
+      "type": "java.lang.String",
+      "sourceType": "com.youku1327.fileupload.config.FileConfig"
+    }
+  ],
+  "hints": []
+}
