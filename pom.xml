@@ -33,6 +33,7 @@
         <module>springboot-admin</module>
         <module>easycode</module>
         <module>springboot-redis</module>
+        <module>springboot-redis-cach</module>
     </modules>
 
     <parent>
