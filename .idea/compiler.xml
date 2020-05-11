@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-swagger" />
         <module name="springboot-aop-log" />
         <module name="annotation" />
         <module name="cors-comsumer" />
@@ -13,23 +14,23 @@
         <module name="springboot-actuator" />
         <module name="springboot-banner" />
         <module name="springboot-jdbcTemplate" />
-        <module name="springboot-RestTemplate" />
-        <module name="easycode" />
         <module name="mybatis-annotation" />
         <module name="filedownload" />
         <module name="springboot-baner" />
         <module name="springboot-exception" />
-        <module name="springboot-websockets" />
+        <module name="springboot-scheduled" />
+        <module name="hello-world" />
         <module name="springboot-jwt" />
+        <module name="springboot-redis" />
         <module name="spring-session" />
         <module name="cors-provider" />
-        <module name="springboot-scheduled" />
+        <module name="springboot-RestTemplate" />
         <module name="springboot-test" />
-        <module name="hello-world" />
+        <module name="easycode" />
         <module name="fileupload" />
         <module name="ssm" />
         <module name="springboot-profile" />
-        <module name="springboot-swagger" />
+        <module name="springboot-websockets" />
         <module name="springboot-shiro" />
         <module name="springboot-admin" />
       </profile>
@@ -55,6 +56,7 @@
       <module name="springboot-jwt" target="1.8" />
       <module name="springboot-profile" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboot-RestTemplate" target="1.8" />
       <module name="springboot-scheduled" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
@@ -85,6 +87,7 @@
       <module name="springboot-jwt" options="-parameters" />
       <module name="springboot-profile" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
       <module name="springboot-scheduled" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-swagger" options="-parameters" />

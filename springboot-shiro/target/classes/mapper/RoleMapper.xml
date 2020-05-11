@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxzxz.shiro.mapper.RoleMapper">
+
+    <select id="getRoleByuserId" parameterType="string" resultType="com.zxzxz.shiro.entity.RoleEntity">
+        SELECT
+            *
+        FROM Role
+        WHERE
+            <if test="userId!=null">
+                roleId IN (SELECT roleId FROM User_Role WHERE userId = #{userId})
+            </if>
+
+    </select>
+
+
+</mapper>
