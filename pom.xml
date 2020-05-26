@@ -34,6 +34,7 @@
         <module>easycode</module>
         <module>springboot-redis</module>
         <module>springboot-redis-cach</module>
+        <module>springboot-thymeleaf</module>
     </modules>
 
     <parent>

@@ -1,0 +1,11 @@
+server:
+  port: 9200
+spring:
+  # 引擎模板配置
+  thymeleaf:
+    cache: false # 关闭缓存
+    mode: LEGACYHTML5 # 去除htm5严格校验
+    prefix: classpath:/templates/ # 指定 thymeleaf 模板路径
+    encoding: UTF-8 # 指定字符集编码
+  mvc:
+    static-path-pattern: /static/** # js ,css 等静态文件路径
