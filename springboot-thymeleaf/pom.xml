@@ -40,9 +40,7 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>**/*.html</include>
-                    <include>**/*.js</include>
-                    <include>**/*.css</include>
+                    <include>**/*</include>
                 </includes>
             </resource>
         </resources>
