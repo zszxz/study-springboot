@@ -35,6 +35,7 @@
         <module>springboot-redis</module>
         <module>springboot-redis-cach</module>
         <module>springboot-thymeleaf</module>
+        <module>springboot-shiro-simple</module>
     </modules>
 
     <parent>

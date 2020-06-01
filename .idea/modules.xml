@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-cach/springboot-redis-cach.iml" filepath="$PROJECT_DIR$/springboot-redis-cach/springboot-redis-cach.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-scheduled/springboot-scheduled.iml" filepath="$PROJECT_DIR$/springboot-scheduled/springboot-scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-simple/springboot-shiro-simple.iml" filepath="$PROJECT_DIR$/springboot-shiro-simple/springboot-shiro-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-test/springboot-test.iml" filepath="$PROJECT_DIR$/springboot-test/springboot-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" />

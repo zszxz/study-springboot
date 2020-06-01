@@ -6,35 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-exception" />
-        <module name="springboot-aop-log" />
-        <module name="annotation" />
-        <module name="springboot-swagger" />
-        <module name="springboot-quartz" />
-        <module name="springboot-actuator" />
-        <module name="springboot-redis-cach" />
-        <module name="springboot-banner" />
-        <module name="springboot-jdbcTemplate" />
         <module name="mybatis-annotation" />
-        <module name="springboot-thymeleaf" />
+        <module name="springboot-RestTemplate" />
+        <module name="annotation" />
+        <module name="springboot-redis" />
         <module name="filedownload" />
-        <module name="springboot-baner" />
-        <module name="cors-comsumer" />
+        <module name="springboot-redis-cach" />
+        <module name="springboot-websockets" />
+        <module name="springboot-shiro-simple" />
+        <module name="fileupload" />
+        <module name="springboot-admin" />
+        <module name="easycode" />
+        <module name="springboot-quartz" />
+        <module name="springboot-jdbcTemplate" />
+        <module name="cors-provider" />
+        <module name="springboot-actuator" />
+        <module name="springboot-shiro" />
+        <module name="springboot-test" />
+        <module name="springboot-exception" />
+        <module name="ssm" />
         <module name="springboot-scheduled" />
         <module name="hello-world" />
-        <module name="springboot-jwt" />
-        <module name="springboot-redis" />
-        <module name="spring-session" />
-        <module name="cors-provider" />
-        <module name="springboot-RestTemplate" />
-        <module name="springboot-test" />
-        <module name="easycode" />
-        <module name="fileupload" />
-        <module name="ssm" />
         <module name="springboot-profile" />
-        <module name="springboot-websockets" />
-        <module name="springboot-shiro" />
-        <module name="springboot-admin" />
+        <module name="springboot-swagger" />
+        <module name="springboot-thymeleaf" />
+        <module name="springboot-aop-log" />
+        <module name="springboot-baner" />
+        <module name="cors-comsumer" />
+        <module name="springboot-banner" />
+        <module name="springboot-jwt" />
+        <module name="spring-session" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -63,6 +64,7 @@
       <module name="springboot-RestTemplate" target="1.8" />
       <module name="springboot-scheduled" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-shiro-simple" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-test" target="1.8" />
       <module name="springboot-thymeleaf" target="1.8" />
@@ -95,6 +97,7 @@
       <module name="springboot-redis-cach" options="-parameters" />
       <module name="springboot-scheduled" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-shiro-simple" options="-parameters" />
       <module name="springboot-swagger" options="-parameters" />
       <module name="springboot-test" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
