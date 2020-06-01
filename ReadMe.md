@@ -58,7 +58,7 @@
 
 [《答应我一定要学会springboot-admin后台监控好吗》](http://mp.weixin.qq.com/s?__biz=MjM5Mzc4MDQ3OA==&mid=2247484542&idx=1&sn=7182130b253ce5939b3841ba820b3117&chksm=a69083ef91e70af9a7e5edfa35cb03c7bd982a27eb9e019135318d9e5a42936623993a57299d&scene=21#wechat_redirect)
 
-
+更多后续配套文档可以关注公众号获取
 
 # 四 公众号
 
