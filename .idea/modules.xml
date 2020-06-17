@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-test/springboot-test.iml" filepath="$PROJECT_DIR$/springboot-test/springboot-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-validator/springboot-validator.iml" filepath="$PROJECT_DIR$/springboot-validator/springboot-validator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websockets/springboot-websockets.iml" filepath="$PROJECT_DIR$/springboot-websockets/springboot-websockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/studys-pringboot.iml" filepath="$PROJECT_DIR$/studys-pringboot.iml" />
     </modules>

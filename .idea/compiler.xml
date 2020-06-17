@@ -9,20 +9,20 @@
         <module name="mybatis-annotation" />
         <module name="springboot-RestTemplate" />
         <module name="annotation" />
-        <module name="springboot-redis" />
         <module name="filedownload" />
         <module name="springboot-redis-cach" />
         <module name="springboot-websockets" />
         <module name="springboot-shiro-simple" />
-        <module name="fileupload" />
+        <module name="springboot-redis" />
+        <module name="springboot-jwt" />
         <module name="springboot-admin" />
         <module name="easycode" />
         <module name="springboot-quartz" />
         <module name="springboot-jdbcTemplate" />
         <module name="cors-provider" />
         <module name="springboot-actuator" />
-        <module name="springboot-shiro" />
         <module name="springboot-test" />
+        <module name="spring-session" />
         <module name="springboot-exception" />
         <module name="ssm" />
         <module name="springboot-scheduled" />
@@ -32,10 +32,11 @@
         <module name="springboot-thymeleaf" />
         <module name="springboot-aop-log" />
         <module name="springboot-baner" />
+        <module name="springboot-shiro" />
         <module name="cors-comsumer" />
         <module name="springboot-banner" />
-        <module name="springboot-jwt" />
-        <module name="spring-session" />
+        <module name="springboot-validator" />
+        <module name="fileupload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -68,6 +69,7 @@
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-test" target="1.8" />
       <module name="springboot-thymeleaf" target="1.8" />
+      <module name="springboot-validator" target="1.8" />
       <module name="springboot-websockets" target="1.8" />
       <module name="ssm" target="1.8" />
       <module name="studys-pringboot" target="1.8" />
@@ -101,6 +103,7 @@
       <module name="springboot-swagger" options="-parameters" />
       <module name="springboot-test" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="springboot-validator" options="-parameters" />
       <module name="springboot-websockets" options="-parameters" />
     </option>
   </component>

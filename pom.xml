@@ -36,6 +36,7 @@
         <module>springboot-redis-cach</module>
         <module>springboot-thymeleaf</module>
         <module>springboot-shiro-simple</module>
+        <module>springboot-validator</module>
     </modules>
 
     <parent>
