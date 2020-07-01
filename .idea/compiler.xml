@@ -19,24 +19,25 @@
         <module name="easycode" />
         <module name="springboot-quartz" />
         <module name="springboot-jdbcTemplate" />
-        <module name="cors-provider" />
+        <module name="spring-session" />
         <module name="springboot-actuator" />
         <module name="springboot-test" />
-        <module name="spring-session" />
         <module name="springboot-exception" />
         <module name="ssm" />
         <module name="springboot-scheduled" />
         <module name="hello-world" />
         <module name="springboot-profile" />
         <module name="springboot-swagger" />
+        <module name="fileupload" />
         <module name="springboot-thymeleaf" />
         <module name="springboot-aop-log" />
         <module name="springboot-baner" />
         <module name="springboot-shiro" />
+        <module name="springboot-Idempotent" />
         <module name="cors-comsumer" />
         <module name="springboot-banner" />
         <module name="springboot-validator" />
-        <module name="fileupload" />
+        <module name="cors-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -56,6 +57,7 @@
       <module name="springboot-baner" target="1.8" />
       <module name="springboot-banner" target="1.8" />
       <module name="springboot-exception" target="1.8" />
+      <module name="springboot-Idempotent" target="1.8" />
       <module name="springboot-jdbcTemplate" target="1.8" />
       <module name="springboot-jwt" target="1.8" />
       <module name="springboot-profile" target="1.8" />
@@ -85,6 +87,7 @@
       <module name="hello-world" options="-parameters" />
       <module name="mybatis-annotation" options="-parameters" />
       <module name="spring-session" options="-parameters" />
+      <module name="springboot-Idempotent" options="-parameters" />
       <module name="springboot-RestTemplate" options="-parameters" />
       <module name="springboot-actuator" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
