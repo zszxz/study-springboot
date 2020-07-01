@@ -20,7 +20,8 @@ public class TokenUtis {
     @Autowired
     RedisUtils redisUtils;
 
-    private final static Long TOKEN_EXPIRE = 30 * 1000L;
+    // token 过期时间为30秒
+    private final static Long TOKEN_EXPIRE = 30L;
 
     private final static String TOKEN_NAME = "token";
     /* *
@@ -48,9 +49,9 @@ public class TokenUtis {
             throw new GlobleException(CodeMsg.BAD_REQUEST);
         }
         // 缓存中不出在 
-        if(!redisUtils.hasKey(token)) {
+        if(!redisUtils.hasKey(TOKEN_NAME)) {
             // 抛出自定义异常
-            System.out.println("token不存在");
+            System.out.println("token已经过期");
             throw new GlobleException(CodeMsg.BAD_REQUEST);
         }
         String cachToekn = (String)redisUtils.get(TOKEN_NAME);
@@ -60,7 +61,7 @@ public class TokenUtis {
             throw new GlobleException(CodeMsg.BAD_REQUEST);
         }
         // 移除token
-        redisUtils.del(token);
+        redisUtils.del(TOKEN_NAME);
         return true;
     }
 }
