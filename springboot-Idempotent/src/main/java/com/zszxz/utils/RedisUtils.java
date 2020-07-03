@@ -3,7 +3,6 @@ package com.zszxz.utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
-import org.springframework.util.CollectionUtils;
 
 import java.util.concurrent.TimeUnit;
 
@@ -35,15 +34,13 @@ public class RedisUtils {
 
     /**
      * 删除key
-     * @param key 可以传一个值 或多个
+     * @param key 键
      */
-    public void del(String... key) {
-        if (key != null && key.length > 0) {
-            if (key.length == 1) {
-                redisTemplate.delete(key[0]);
-            } else {
-                redisTemplate.delete(CollectionUtils.arrayToList(key));
-            }
+    public Boolean del(String key) {
+        if (key != null && key.length() > 0) {
+            return redisTemplate.delete(key);
+        }else  {
+            return false;
         }
     }
 

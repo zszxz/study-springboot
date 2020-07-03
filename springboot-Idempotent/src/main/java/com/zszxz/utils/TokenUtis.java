@@ -61,7 +61,12 @@ public class TokenUtis {
             throw new GlobleException(CodeMsg.BAD_REQUEST);
         }
         // 移除token
-        redisUtils.del(TOKEN_NAME);
+        Boolean del = redisUtils.del(TOKEN_NAME);
+        if (!del){
+            // 抛出自定义异常
+            System.out.println("token删除失败");
+            throw new GlobleException(CodeMsg.BAD_REQUEST);
+        }
         return true;
     }
 }
