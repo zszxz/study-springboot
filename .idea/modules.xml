@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-exception/springboot-exception.iml" filepath="$PROJECT_DIR$/springboot-exception/springboot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbcTemplate/springboot-jdbcTemplate.iml" filepath="$PROJECT_DIR$/springboot-jdbcTemplate/springboot-jdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" filepath="$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-plus/springboot-mybatis-plus.iml" filepath="$PROJECT_DIR$/springboot-mybatis-plus/springboot-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-profile/springboot-profile.iml" filepath="$PROJECT_DIR$/springboot-profile/springboot-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
