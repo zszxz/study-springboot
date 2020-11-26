@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/sprinboot-jpa/sprinboot-jpa.iml" filepath="$PROJECT_DIR$/sprinboot-jpa/sprinboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-session/spring-session.iml" filepath="$PROJECT_DIR$/spring-session/spring-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-Idempotent/springboot-Idempotent.iml" filepath="$PROJECT_DIR$/springboot-Idempotent/springboot-Idempotent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-JApiDocs/springboot-JApiDocs.iml" filepath="$PROJECT_DIR$/springboot-JApiDocs/springboot-JApiDocs.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-RestTemplate/springboot-RestTemplate.iml" filepath="$PROJECT_DIR$/springboot-RestTemplate/springboot-RestTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />

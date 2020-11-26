@@ -39,6 +39,7 @@
         <module>springboot-validator</module>
         <module>springboot-Idempotent</module>
         <module>springboot-mybatis-plus</module>
+        <module>springboot-JApiDocs</module>
     </modules>
 
     <parent>

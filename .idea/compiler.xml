@@ -9,6 +9,7 @@
         <module name="mybatis-annotation" />
         <module name="springboot-thymeleaf" />
         <module name="springboot-RestTemplate" />
+        <module name="cors-provider" />
         <module name="annotation" />
         <module name="filedownload" />
         <module name="springboot-redis-cach" />
@@ -23,6 +24,7 @@
         <module name="springboot-jdbcTemplate" />
         <module name="spring-session" />
         <module name="springboot-actuator" />
+        <module name="springboot-shiro" />
         <module name="springboot-test" />
         <module name="springboot-exception" />
         <module name="ssm" />
@@ -31,15 +33,14 @@
         <module name="springboot-profile" />
         <module name="springboot-mybatis-plus" />
         <module name="springboot-swagger" />
-        <module name="fileupload" />
         <module name="springboot-Idempotent" />
         <module name="springboot-aop-log" />
         <module name="springboot-baner" />
-        <module name="springboot-shiro" />
         <module name="cors-comsumer" />
+        <module name="springboot-JApiDocs" />
         <module name="springboot-banner" />
         <module name="springboot-validator" />
-        <module name="cors-provider" />
+        <module name="fileupload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -61,6 +62,7 @@
       <module name="springboot-banner" target="1.8" />
       <module name="springboot-exception" target="1.8" />
       <module name="springboot-Idempotent" target="1.8" />
+      <module name="springboot-JApiDocs" target="1.8" />
       <module name="springboot-jdbcTemplate" target="1.8" />
       <module name="springboot-jwt" target="1.8" />
       <module name="springboot-mybatis-plus" target="1.8" />
@@ -93,6 +95,7 @@
       <module name="sprinboot-jpa" options="-parameters" />
       <module name="spring-session" options="-parameters" />
       <module name="springboot-Idempotent" options="-parameters" />
+      <module name="springboot-JApiDocs" options="-parameters" />
       <module name="springboot-RestTemplate" options="-parameters" />
       <module name="springboot-actuator" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
