@@ -19,11 +19,11 @@
         <module name="springboot-admin" />
         <module name="easycode" />
         <module name="springboot-quartz" />
+        <module name="sprinboot-jpa" />
         <module name="springboot-jdbcTemplate" />
         <module name="spring-session" />
         <module name="springboot-actuator" />
         <module name="springboot-test" />
-        <module name="cors-provider" />
         <module name="springboot-exception" />
         <module name="ssm" />
         <module name="springboot-scheduled" />
@@ -31,6 +31,7 @@
         <module name="springboot-profile" />
         <module name="springboot-mybatis-plus" />
         <module name="springboot-swagger" />
+        <module name="fileupload" />
         <module name="springboot-Idempotent" />
         <module name="springboot-aop-log" />
         <module name="springboot-baner" />
@@ -38,7 +39,7 @@
         <module name="cors-comsumer" />
         <module name="springboot-banner" />
         <module name="springboot-validator" />
-        <module name="fileupload" />
+        <module name="cors-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,6 +52,7 @@
       <module name="hello-world" target="1.8" />
       <module name="mybatis-annotation" target="1.8" />
       <module name="mybatis-xml" target="1.8" />
+      <module name="sprinboot-jpa" target="1.8" />
       <module name="spring-session" target="1.8" />
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-admin" target="1.8" />
@@ -88,6 +90,7 @@
       <module name="fileupload" options="-parameters" />
       <module name="hello-world" options="-parameters" />
       <module name="mybatis-annotation" options="-parameters" />
+      <module name="sprinboot-jpa" options="-parameters" />
       <module name="spring-session" options="-parameters" />
       <module name="springboot-Idempotent" options="-parameters" />
       <module name="springboot-RestTemplate" options="-parameters" />
