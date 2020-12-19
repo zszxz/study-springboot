@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-banner/springboot-banner.iml" filepath="$PROJECT_DIR$/springboot-banner/springboot-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-exception/springboot-exception.iml" filepath="$PROJECT_DIR$/springboot-exception/springboot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jdbcTemplate/springboot-jdbcTemplate.iml" filepath="$PROJECT_DIR$/springboot-jdbcTemplate/springboot-jdbcTemplate.iml" />

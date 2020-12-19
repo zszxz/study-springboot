@@ -7,9 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-annotation" />
-        <module name="springboot-thymeleaf" />
         <module name="springboot-RestTemplate" />
-        <module name="cors-provider" />
         <module name="annotation" />
         <module name="filedownload" />
         <module name="springboot-redis-cach" />
@@ -33,14 +31,17 @@
         <module name="springboot-profile" />
         <module name="springboot-mybatis-plus" />
         <module name="springboot-swagger" />
-        <module name="springboot-Idempotent" />
+        <module name="fileupload" />
+        <module name="springboot-thymeleaf" />
         <module name="springboot-aop-log" />
         <module name="springboot-baner" />
+        <module name="springboot-Idempotent" />
         <module name="cors-comsumer" />
         <module name="springboot-JApiDocs" />
         <module name="springboot-banner" />
         <module name="springboot-validator" />
-        <module name="fileupload" />
+        <module name="springboot-async" />
+        <module name="cors-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -58,6 +59,7 @@
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-admin" target="1.8" />
       <module name="springboot-aop-log" target="1.8" />
+      <module name="springboot-async" target="1.8" />
       <module name="springboot-baner" target="1.8" />
       <module name="springboot-banner" target="1.8" />
       <module name="springboot-exception" target="1.8" />
@@ -100,6 +102,7 @@
       <module name="springboot-actuator" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
       <module name="springboot-aop-log" options="-parameters" />
+      <module name="springboot-async" options="-parameters" />
       <module name="springboot-banner" options="-parameters" />
       <module name="springboot-exception" options="-parameters" />
       <module name="springboot-jdbcTemplate" options="-parameters" />
