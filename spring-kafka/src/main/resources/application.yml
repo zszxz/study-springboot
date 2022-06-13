@@ -1,0 +1,22 @@
+spring:
+  kafka:
+    # kafka server 地址,多个使用逗号隔开
+    bootstrap-servers: 127.0.0.1:9092
+    producer:
+      # 发送失败重试次数
+      retries: 5
+      # 批处理数量
+      batch-size: 1000
+      # 32M 缓冲区
+      buffer-memory: 33554432
+    consumer:
+      # 默认消费组
+      group-id: test-zs
+      # 从最早的消息开始消费
+      auto-offset-reset: earliest
+      # 设置自动提交
+      enable-auto-commit: true
+      # 自动提交间隔
+      auto-commit-interval: 1000
+      # 批量拉取最大条数
+      max-poll-records: 5000

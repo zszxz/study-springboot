@@ -41,6 +41,7 @@
         <module>springboot-mybatis-plus</module>
         <module>springboot-JApiDocs</module>
         <module>springboot-async</module>
+        <module>spring-kafka</module>
     </modules>
 
     <parent>

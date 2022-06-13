@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-annotation" />
+        <module name="springboot-thymeleaf" />
         <module name="springboot-RestTemplate" />
+        <module name="cors-provider" />
         <module name="annotation" />
         <module name="filedownload" />
         <module name="springboot-redis-cach" />
@@ -31,17 +33,16 @@
         <module name="springboot-profile" />
         <module name="springboot-mybatis-plus" />
         <module name="springboot-swagger" />
-        <module name="fileupload" />
-        <module name="springboot-thymeleaf" />
+        <module name="springboot-Idempotent" />
         <module name="springboot-aop-log" />
         <module name="springboot-baner" />
-        <module name="springboot-Idempotent" />
         <module name="cors-comsumer" />
         <module name="springboot-JApiDocs" />
         <module name="springboot-banner" />
+        <module name="spring-kafka" />
         <module name="springboot-validator" />
         <module name="springboot-async" />
-        <module name="cors-provider" />
+        <module name="fileupload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -55,6 +56,7 @@
       <module name="mybatis-annotation" target="1.8" />
       <module name="mybatis-xml" target="1.8" />
       <module name="sprinboot-jpa" target="1.8" />
+      <module name="spring-kafka" target="1.8" />
       <module name="spring-session" target="1.8" />
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-admin" target="1.8" />
@@ -95,6 +97,7 @@
       <module name="hello-world" options="-parameters" />
       <module name="mybatis-annotation" options="-parameters" />
       <module name="sprinboot-jpa" options="-parameters" />
+      <module name="spring-kafka" options="-parameters" />
       <module name="spring-session" options="-parameters" />
       <module name="springboot-Idempotent" options="-parameters" />
       <module name="springboot-JApiDocs" options="-parameters" />
